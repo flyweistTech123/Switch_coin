@@ -1,11 +1,20 @@
-import Navbar from "./Components/Navbar/Navbar";
 import Home from "./Pages/Home/Home";
-import PrintForm from "./Pages/Home/price";
+import BuyCrypto from "./Pages/Buycrpto/Buycrpto";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Prices from "./Pages/Price/Price";
+
 
 function App() {
   return (
     <>
-      <Home/>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/buycrypto" element={<BuyCrypto />} />
+          <Route path="/prices" element={<Prices />} />
+        </Routes>
+      </BrowserRouter>
+
     </>
   );
 }

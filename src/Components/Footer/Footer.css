@@ -61,6 +61,7 @@
     display: flex;
     flex-direction: column;
     cursor: pointer;
+    margin-bottom: 20px;
   }
   
   .footer6 span{
