@@ -28,10 +28,10 @@ const Navbar = () => {
             <ul>
               <a href="/buycrypto"><li >Buy Crypto</li></a>
               <a href="/prices"><li>Prices</li></a>
-              <li>Trade</li>
-              <li>Staking</li>
+              <a href="/otc_trading"><li>Trade</li></a>
+              <a href="/staking"><li>Staking</li></a>
               <li>Pay</li>
-              <li>Institutions</li>
+              <a href="/institutional_service"><li>Institutions</li></a>
             </ul>
           </div>
           <div className="buttons">
