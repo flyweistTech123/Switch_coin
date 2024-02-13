@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import './Home.css'
+import { Link, useNavigate } from 'react-router-dom';
 
 // icons
 
@@ -55,12 +56,15 @@ const Home = () => {
         return () => clearInterval(interval);
     }, [prices]);
 
+    const navigate = useNavigate();
+
+
     return (
         <>
             <div className='homenav'>
                 <Navbar />
             </div>
-            <div className='homeconatainer'>
+            <div  className="homeconatainer">
                 <div className='home'>
                     <div className='home1'>
                         <h1>Buy, Sell & Trade
@@ -72,7 +76,7 @@ const Home = () => {
                         <div className='home3'>
                             <input type="email" name="" id="" placeholder='Enter your email address' />
 
-                            <button>Sign Up <BsArrowUpRight className='btnicon' /></button>
+                            <button onClick={() => navigate('/')}>Sign Up <BsArrowUpRight className='btnicon' /></button>
                         </div>
                     </div>
 
@@ -103,8 +107,13 @@ const Home = () => {
                     </div>
                 </div>
 
-                <div className='home7'>
-                    <h2>Buy Crypto In Minutes</h2>
+                <div className="home7">
+                    <h2>
+                        <span>Buy</span>
+                        <span>Crypto</span>
+                        <span>In</span>
+                        <span>Minutes</span>
+                    </h2>
                     <p>Sign up today to buy and sell 150+ cryptocurrencies.</p>
 
                     <div className='home8'>
@@ -126,7 +135,7 @@ const Home = () => {
                     </div>
 
                     <div className='home10'>
-                        <button>Sign Up <BsArrowUpRight className='btnicon' /></button>
+                        <button onClick={() => navigate('/')}>Sign Up <BsArrowUpRight className='btnicon' /></button>
                     </div>
                 </div>
 
@@ -232,7 +241,7 @@ const Home = () => {
                         </div>
 
                         <div className='home10'>
-                            <button>Sign Up <BsArrowUpRight className='btnicon' /></button>
+                            <button onClick={() => navigate('/')}> Sign Up <BsArrowUpRight className='btnicon' /></button>
                         </div>
                     </div>
                 </div>
@@ -246,7 +255,7 @@ const Home = () => {
 
 
                     <div className='home10'>
-                        <button>Sign Up <BsArrowUpRight className='btnicon' /></button>
+                        <button onClick={() => navigate('/')}>Sign Up <BsArrowUpRight className='btnicon' /></button>
                     </div>
 
                     <div className='home25'>

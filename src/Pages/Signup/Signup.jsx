@@ -8,7 +8,7 @@ const Signup = () => {
         <>
             <div className='signup'>
                 <div className='signup1'>
-                    <div className="logo">
+                    <div className="logo" onClick={()=>navigate('/home')}>
                         <span>BITBOT</span>
                         <span>EXCHANGE</span>
                     </div>

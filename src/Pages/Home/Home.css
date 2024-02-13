@@ -111,7 +111,7 @@
   width: 36px;
   height: 100%;
   content: "";
-  z-index: 2;
+  z-index: 1;
   left: 0;
   background: #efeff1;
 }
@@ -190,8 +190,27 @@
   margin-top: 100px;
 }
 
+@keyframes typing {
+  from {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 .home7 h2 {
   font-family: "Poppins", sans-serif;
+  overflow: hidden;
+}
+.home7 h2 span {
+  display: inline-block;
+  padding-left: 10px;
+}
+
+.home7 h2 {
   font-size: 50px;
   font-weight: 600;
   line-height: normal;
@@ -205,6 +224,19 @@
   color: #6a6b6d;
   margin-top: 50px;
 }
+.home7  h2 span {
+  animation: typing 1s ease-out forwards;
+  opacity: 0;
+}
+
+.home7 h2 span:nth-child(1) {
+  animation-delay: 0.5s; 
+}
+
+.home7 h2 span:nth-child(2) {
+  animation-delay: 1s; 
+}
+
 
 .home8 {
   display: flex;
@@ -223,6 +255,12 @@
   justify-content: center;
   cursor: pointer;
   transition: transform 0.3s ease;
+  animation: typing 1s ease-out forwards;
+  opacity: 0;
+}
+
+.home9:hover{
+  border: 1px solid #F1B90C;
 }
 
 .home9 h6 {
@@ -268,6 +306,8 @@
   justify-content: center;
   gap: 5px;
   transition: transform 0.9s ease;
+  animation: typing 1s ease-out forwards;
+  opacity: 0;
 }
 
 .home10 button:hover {
@@ -294,6 +334,8 @@
   font-size: 35px;
   line-height: normal;
   color: #ffffff;
+  animation: typing 1s ease-out forwards;
+  opacity: 0;
 }
 
 .home12 p {
@@ -303,6 +345,8 @@
   line-height: 21.37px;
   color: #ffffff;
   padding-top: 5px;
+  animation: typing 1s ease-out forwards;
+  opacity: 0;
 }
 
 .home13 img {
@@ -472,7 +516,7 @@
 
 .home22 {
   display: flex;
-  gap: 30px;
+  justify-content: space-between;
   margin-top: 50px;
 }
 
@@ -533,7 +577,7 @@
 .home25 {
   display: flex;
   align-items: center;
-  gap: 20px;
+  justify-content: space-between;
   margin-top: 50px;
 }
 
@@ -543,6 +587,10 @@
   border-radius: 15px;
   border: 1px solid #757575;
   cursor: pointer;
+}
+
+.home26:hover{
+  border: 1px solid #F1B90C;
 }
 
 .home26 p {
@@ -712,7 +760,6 @@
   .home26{
     width: 100%;
   }
-
-
-
 }
+
+
