@@ -1,0 +1,367 @@
+.convert-container {
+  width: 90%;
+  margin: auto;
+}
+
+.convert1 {
+  display: flex;
+  width: 100%;
+  margin-top: 100px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.convert2 {
+  width: 40%;
+  margin-top: 20px;
+}
+
+.convert2 h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 75px;
+  color: #000000;
+}
+
+.convert2 p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 31px;
+  color: #000000;
+  margin-top: 20px;
+  width: 90%;
+}
+
+.convert2 button {
+  width: 273px;
+  height: 56px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  background-color: #f1b90c;
+  font-weight: 500;
+  font-size: 18.2px;
+  line-height: 27.3px;
+  color: #000000;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  transition: transform 0.9s ease;
+  margin-top: 30px;
+}
+
+.convert2 button:hover {
+  scale: 0.9;
+}
+
+.convert3 {
+  width: 676px;
+  height: 717px;
+  border-radius: 30px;
+  background-color: #f7cd2a;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.convert4 {
+  width: 448px;
+  height: 610px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  position: relative;
+}
+
+.convert5 {
+}
+
+.convert5 h6 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 20.12px;
+  line-height: 30.18px;
+  color: #000000;
+  padding-left: 30px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.convert6 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.convert14 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.convert10 {
+  padding-top: 10px;
+}
+
+.convert7 {
+}
+
+.convert7 label {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 15.48px;
+  line-height: 23.21px;
+  color: #000000;
+}
+
+.convert8 {
+  width: 372px;
+  height: 78px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.convert8 input {
+  border: none;
+  outline: none;
+  font-family: Roboto Flex;
+  font-weight: 500;
+  font-size: 20.63px;
+  line-height: 24.18px;
+  color: #000000;
+  padding-left: 20px;
+}
+
+.convert8 input::placeholder {
+  font-family: Roboto Flex;
+  font-weight: 500;
+  font-size: 20.63px;
+  line-height: 24.18px;
+  color: #000000;
+}
+
+.convert9 {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.convert9 img {
+  width: 30px;
+  height: 30px;
+}
+
+.convert9 span {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 18.83px;
+  line-height: 28.25px;
+  color: #000000;
+}
+
+.convert11 button {
+  width: 372px;
+  height: 47px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  background-color: #ecbf35;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 15px;
+  color: #000000;
+  cursor: pointer;
+  transition: transform 0.9s ease;
+}
+
+.convert11 button:hover {
+  scale: 0.9;
+}
+
+.convert12 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.convert12 p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 12.83px;
+  line-height: 19.24px;
+  color: #a4a4a4;
+}
+
+.convert12 span {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 15.65px;
+  line-height: 23.48px;
+  color: #000000;
+  text-decoration: underline;
+}
+
+.convert13 {
+  position: absolute;
+  bottom: 30px;
+}
+
+.convert15 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+
+.convert16 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.convert16 h5 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 45px;
+  color: #000000;
+}
+
+.convert16 p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 18.58px;
+  line-height: 31px;
+  text-align: Center;
+  color: #000000;
+  letter-spacing: 1%;
+  width: 75%;
+}
+
+.convert17 {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.convert17 h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 45.99px;
+  line-height: 67px;
+  color: #000000;
+}
+
+.convert17 p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: Center;
+  color: #000000;
+  letter-spacing: 1%;
+  margin-top: 30px;
+  width: 75%;
+}
+
+.convert18 {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+.convert18 h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 47.35px;
+  line-height: 68.97px;
+  color: #000000;
+}
+
+.convert19 {
+  margin-top: 100px;
+}
+
+.convert20 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 50%;
+  padding: 20px;
+  padding-bottom: 30px;
+}
+.convert201 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-right: 1px solid #bcbcbc;
+  width: 50%;
+  padding: 20px;
+  padding-bottom: 30px;
+}
+.convert201 h6 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 26.13px;
+  color: #000000;
+}
+
+.convert20 h6 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 26.13px;
+  color: #000000;
+}
+
+.convert21 {
+  display: flex;
+  gap: 10px;
+}
+
+.convert21 img {
+  width: 40px;
+  height: 40px;
+}
+
+.convert22 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.convert23{
+    margin-top: 50px;
+}
+
+.convert23 button {
+  width: 180px;
+  height: 57px;
+  border: 1px solid #919191;
+  border-radius: 3px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+  background-color: #ffffff;
+  cursor: pointer;
+  transition: transform 0.9s ease;
+}
+
+.convert23 button:hover {
+  scale: 0.9;
+}

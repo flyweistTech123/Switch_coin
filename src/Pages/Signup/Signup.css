@@ -1,0 +1,132 @@
+.signup1 {
+  width: 100%;
+  height: 91px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding-left: 20px;
+  padding-top: 10px;
+}
+
+.signup2 {
+  width: 100%;
+  margin-top: 70px;
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.signup2 h2{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 75.36px;
+    color: #000000;
+}
+
+.signup3 {
+  width: 505px;
+  height: auto;
+  border-radius: 12.53px;
+  background-color: #ffffff;
+  box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  padding-top: 20px;
+}
+
+.signup4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 10px;
+}
+
+.signup4 label {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 14.86px;
+  line-height: 18.8px;
+  color: #000000;
+}
+
+.signup4 input {
+  width: 385.96px;
+  height: 50.12px;
+  border: 1.25px solid #757575;
+  border-radius: 6.27px;
+}
+
+.signup5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+  gap: 20px;
+  padding-left: 50px;
+}
+
+.signup5 input {
+  width: 22.56px;
+  height: 22.56px;
+}
+
+.signup5 p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 14.86px;
+  line-height: 18.8px;
+  color: #000000;
+}
+
+.signup6{
+    margin-top: 30px;
+}
+
+.signup6 button {
+  width: 385.96px;
+  height: 50.12px;
+  border-radius: 6.27px;
+  border: none;
+  outline: none;
+  background-color: #d9d9d9;
+  font-weight: 400;
+  font-size: 14.86px;
+  line-height: 18.8px;
+  color: #575757;
+  cursor: pointer;
+}
+
+.signup6 button:hover {
+  scale: 0.9;
+}
+
+
+.signup7{
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    gap: 10px;
+}
+
+.signup7 p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 14.86px;
+    line-height: 18.8px;
+    color: #000000;
+}
+
+.signup7 span{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 14.86px;
+    line-height: 18.8px;
+    color: #F0B90B;
+}
+

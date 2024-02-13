@@ -6,6 +6,8 @@ import OTC from "./Pages/OTC trading/OTC";
 import Staking from "./Pages/Staking/Staking";
 import Historical from "./Pages/Historical/Historical";
 import Institutional from "./Pages/Institutional services/Institutional";
+import Convert from "./Pages/Convert/Convert";
+import Signup from "./Pages/Signup/Signup";
 
 
 function App() {
@@ -13,8 +15,10 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<Signup />} />
+          <Route path="/home" element={<Home />} />
           <Route path="/buycrypto" element={<BuyCrypto />} />
+          <Route path="/convert" element={<Convert />} />
           <Route path="/prices" element={<Prices />} />
           <Route path="/otc_trading" element={<OTC />} />
           <Route path="/staking" element={<Staking />} />
